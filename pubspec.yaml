@@ -1,7 +1,7 @@
 name: cuba_weather_dart
 description: Dart client for www.redcuba.cu weather API
 version: 0.0.1
-homepage: https://github.com/leynier/cuba_weather_dart
+homepage: https://github.com/leynier/cuba-weather-dart
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
