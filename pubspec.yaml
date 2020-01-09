@@ -1,8 +1,7 @@
 name: cuba_weather_dart
-description: Dart client for redcuba.cu weather API
+description: Dart client for www.redcuba.cu weather API
 version: 0.0.1
-author: Leynier Gutiérrez González
-homepage: https://leynier.github.io
+homepage: https://github.com/leynier/cuba_weather_dart
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
