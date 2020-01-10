@@ -1,5 +1,13 @@
 # Cuba Weather
 
+## [1.0.0] - January 10, 2020
+
+* Create GitHub workflow 
+* Add README license badge
+* Add README package version badge
+* Add README build result badge
+* Document code
+
 ## [0.1.4] - January 10, 2020
 
 * Fix error in wind property
