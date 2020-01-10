@@ -29,9 +29,6 @@ jobs:
 
     runs-on: windows-latest
 
-    container:
-      image:  google/dart:latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Install dependencies
