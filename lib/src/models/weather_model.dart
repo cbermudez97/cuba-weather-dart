@@ -1,5 +1,7 @@
 import 'package:equatable/equatable.dart';
 
+/// Model class for mapping the json returned by the https://www.redcuba.cu
+/// weather API
 class WeatherModel extends Equatable {
   final String cityName;
   final WeatherDateModel dt;
@@ -10,6 +12,7 @@ class WeatherModel extends Equatable {
   final String windstring;
   final String descriptionWeather;
 
+  /// Class constructor
   const WeatherModel({
     this.cityName,
     this.dt,
@@ -33,6 +36,7 @@ class WeatherModel extends Equatable {
         descriptionWeather,
       ];
 
+  /// Static method that returns an instance of the class from the json provided
   static WeatherModel fromJson(dynamic json) {
     final data = json['data'];
     return WeatherModel(
@@ -48,17 +52,21 @@ class WeatherModel extends Equatable {
   }
 }
 
+/// Model class for mapping part of the json returned by the
+/// https://www.redcuba.cu weather API
 class WeatherDateModel extends Equatable {
   final String date;
   final int timezone_type; // ignore: non_constant_identifier_names
   final String timezone;
 
   // ignore: non_constant_identifier_names
+  /// Class constructor
   const WeatherDateModel({this.date, this.timezone_type, this.timezone});
 
   @override
   List<Object> get props => [date, timezone_type, timezone];
 
+  /// Static method that returns an instance of the class from the json provided
   static WeatherDateModel fromJson(dynamic json) {
     return WeatherDateModel(
       date: json['date'],
