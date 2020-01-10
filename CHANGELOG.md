@@ -1,5 +1,9 @@
 # Cuba Weather
 
+## [0.1.2] - January 9, 2020
+
+* Fix example README.md
+
 ## [0.1.1] - January 9, 2020
 
 * Remove Flutter dependency
