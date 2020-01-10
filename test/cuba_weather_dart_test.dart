@@ -6,7 +6,7 @@ void main() {
   test('Print Habana weather', () {
     var cubaWeather = CubaWeather();
     cubaWeather.getWeather('Habana').then((weather) {
-      print(weather.cityName);
+      expect(weather.cityName, 'Habana');
     });
   });
 }
