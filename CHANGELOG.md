@@ -1,5 +1,12 @@
 # Cuba Weather
 
+## [0.1.4] - January 10, 2020
+
+* Fix error in wind property
+* Fix error in location sort
+* Improve example
+* Improve test
+
 ## [0.1.3] - January 9, 2020
 
 * Remove unnecessary code

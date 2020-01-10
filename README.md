@@ -10,7 +10,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```[yaml]
 dependencies:
-  cuba_weather_dart: ^0.1.2
+  cuba_weather_dart: ^0.1.4
 ```
 
 ### Install it
@@ -60,6 +60,13 @@ void main() {
 ```
 
 ## Changelog
+
+### [0.1.4] - January 10, 2020
+
+* Fix error in wind property
+* Fix error in location sort
+* Improve example
+* Improve test
 
 ### [0.1.3] - January 9, 2020
 
