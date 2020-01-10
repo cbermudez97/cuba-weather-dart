@@ -1,5 +1,13 @@
 # Cuba Weather
 
+## [0.1.1] - January 9, 2020
+
+* Remove Flutter dependency
+* Use Test Dart package instance of Flutter Test
+* Add `pubspec.yaml` to example
+* Fix example
+* Fix test
+
 ## [0.1.0] - January 9, 2020
 
 * Improve package description
