@@ -7,7 +7,7 @@ class WeatherModel extends Equatable {
   final int pressure;
   final int humidity;
   final String iconWeather;
-  final String windString;
+  final String windstring;
   final String descriptionWeather;
 
   const WeatherModel({
@@ -17,7 +17,7 @@ class WeatherModel extends Equatable {
     this.pressure,
     this.humidity,
     this.iconWeather,
-    this.windString,
+    this.windstring,
     this.descriptionWeather,
   });
 
@@ -29,7 +29,7 @@ class WeatherModel extends Equatable {
         pressure,
         humidity,
         iconWeather,
-        windString,
+        windstring,
         descriptionWeather,
       ];
 
@@ -42,7 +42,7 @@ class WeatherModel extends Equatable {
       pressure: data['pressure'],
       humidity: data['humidity'],
       iconWeather: data['iconWeather'],
-      windString: data['windString'],
+      windstring: data['windstring'],
       descriptionWeather: data['descriptionWeather'],
     );
   }
