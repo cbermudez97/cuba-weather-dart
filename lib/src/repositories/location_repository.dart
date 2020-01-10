@@ -4,7 +4,7 @@ import 'package:cuba_weather_dart/src/data_providers/data_providers.dart';
 
 class LocationRepository {
   LocationRepository() {
-    locations.sort((a, b) => b.length - a.length);
+    locations.sort((a, b) => a.length - b.length);
   }
 
   Future<String> getLocation(String locationQuery) async {
