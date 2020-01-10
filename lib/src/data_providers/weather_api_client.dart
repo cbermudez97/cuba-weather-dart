@@ -12,7 +12,7 @@ class WeatherApiClient {
 
   Future<WeatherModel> fetchWeather(String location) async {
     final url = baseUrl + location;
-    final resp = await this.httpClient.get(url);
+    final resp = await httpClient.get(url);
     if (resp.statusCode != 200) {
       throw Exception('error getting weather for location');
     }
