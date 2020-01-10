@@ -1,6 +1,6 @@
 # Cuba Weather
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/leynier/cuba-weather-dart.svg?branch=master)](https://travis-ci.org/leynier/cuba-weather-dart)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/leynier/cuba-weather-dart.svg?branch=master)](https://travis-ci.org/leynier/cuba-weather-dart)
 
 Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a location in Cuba, if it is within the permitted locations, meteorological data on the location is obtained.
 
