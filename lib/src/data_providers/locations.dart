@@ -1,3 +1,4 @@
+/// Known locations
 var locations = [
   'Consolación del Sur',
   'Guane',
