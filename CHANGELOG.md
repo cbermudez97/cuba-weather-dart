@@ -1,5 +1,11 @@
 # Cuba Weather
 
+## [0.1.3] - January 9, 2020
+
+* Remove unnecessary code
+* Add CODE_OF_CONDUCT.md
+* Improve README.md
+
 ## [0.1.2] - January 9, 2020
 
 * Fix example README.md
