@@ -1,5 +1,7 @@
 # Cuba Weather
 
+[![Build Status](https://travis-ci.org/leynier/cuba-weather-dart.svg?branch=master)](https://travis-ci.org/leynier/cuba-weather-dart)
+
 Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a location in Cuba, if it is within the permitted locations, meteorological data on the location is obtained.
 
 ## Installing
