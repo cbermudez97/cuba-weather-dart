@@ -1,5 +1,10 @@
 # Cuba Weather
 
+## [1.1.0] - January 10, 2020
+
+* Find location with Levenshtein distance
+* Improve example
+
 ## [1.0.0] - January 10, 2020
 
 * Create GitHub workflow 

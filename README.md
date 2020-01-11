@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```[yaml]
 dependencies:
-  cuba_weather_dart: ^1.0.0
+  cuba_weather_dart: ^1.1.0
 ```
 
 ### Install it
@@ -44,11 +44,15 @@ import 'package:cuba_weather_dart/cuba_weather_dart.dart';
 ## Example
 
 ```[dart]
+import 'dart:io';
+
 import 'package:cuba_weather_dart/cuba_weather_dart.dart';
 
 void main() {
+  print('Insert location:');
+  var location = stdin.readLineSync();
   var cubaWeather = CubaWeather();
-  cubaWeather.getWeather('Habana').then((weather) {
+  cubaWeather.getWeather(location).then((weather) {
     print('City Name: ${weather.cityName}');
     print('Temperature: ${weather.temp}°C');
     print('Timestamp: ${weather.dt.date}');
@@ -62,6 +66,11 @@ void main() {
 ```
 
 ## Changelog
+
+### [1.1.0] - January 10, 2020
+
+* Find location with Levenshtein distance
+* Improve example
 
 ### [1.0.0] - January 10, 2020
 

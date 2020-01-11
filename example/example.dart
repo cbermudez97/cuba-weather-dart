@@ -1,8 +1,12 @@
+import 'dart:io';
+
 import 'package:cuba_weather_dart/cuba_weather_dart.dart';
 
 void main() {
+  print('Insert location:');
+  var location = stdin.readLineSync();
   var cubaWeather = CubaWeather();
-  cubaWeather.getWeather('Habana').then((weather) {
+  cubaWeather.getWeather(location).then((weather) {
     print('City Name: ${weather.cityName}');
     print('Temperature: ${weather.temp}°C');
     print('Timestamp: ${weather.dt.date}');
