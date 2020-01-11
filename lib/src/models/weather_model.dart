@@ -56,21 +56,20 @@ class WeatherModel extends Equatable {
 /// https://www.redcuba.cu weather API
 class WeatherDateModel extends Equatable {
   final String date;
-  final int timezone_type; // ignore: non_constant_identifier_names
+  final int timezoneType;
   final String timezone;
 
-  // ignore: non_constant_identifier_names
   /// Class constructor
-  const WeatherDateModel({this.date, this.timezone_type, this.timezone});
+  const WeatherDateModel({this.date, this.timezoneType, this.timezone});
 
   @override
-  List<Object> get props => [date, timezone_type, timezone];
+  List<Object> get props => [date, timezoneType, timezone];
 
   /// Static method that returns an instance of the class from the json provided
   static WeatherDateModel fromJson(dynamic json) {
     return WeatherDateModel(
       date: json['date'],
-      timezone_type: json['timezone_type'],
+      timezoneType: json['timezone_type'],
       timezone: json['timezone'],
     );
   }
