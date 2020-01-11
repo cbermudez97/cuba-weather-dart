@@ -1,5 +1,9 @@
 # Cuba Weather
 
+## [1.1.4] - January 10, 2020
+
+* Implement actions for master and develop branchs
+
 ## [1.1.3] - January 10, 2020
 
 * Autopublish in [pub.dev](https://pub.dev) with GitHub Actions
