@@ -1,5 +1,9 @@
 # Cuba Weather
 
+## [1.1.3] - January 10, 2020
+
+* Autopublish in [pub.dev](https://pub.dev) with GitHub Actions
+
 ## [1.1.2] - January 10, 2020
 
 * Fix errors in dependencies
