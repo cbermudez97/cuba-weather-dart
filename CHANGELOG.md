@@ -1,5 +1,9 @@
 # Cuba Weather
 
+## [1.1.5] - January 11, 2020
+
+* Fix error in GitHub Actions
+
 ## [1.1.4] - January 10, 2020
 
 * Implement actions for master and develop branchs

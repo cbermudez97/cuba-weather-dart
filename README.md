@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```[yaml]
 dependencies:
-  cuba_weather_dart: ^1.1.4
+  cuba_weather_dart: ^1.1.5
 ```
 
 ### Install it
@@ -66,6 +66,10 @@ void main() {
 ```
 
 ## Changelog
+
+### [1.1.5] - January 11, 2020
+
+* Fix error in GitHub Actions
 
 ### [1.1.4] - January 10, 2020
 
