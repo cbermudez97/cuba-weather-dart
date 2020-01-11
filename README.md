@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```[yaml]
 dependencies:
-  cuba_weather_dart: ^1.0.0
+  cuba_weather_dart: ^1.1.0
 ```
 
 ### Install it
@@ -66,6 +66,11 @@ void main() {
 ```
 
 ## Changelog
+
+### [1.1.0] - January 10, 2020
+
+* Find location with Levenshtein distance
+* Improve example
 
 ### [1.0.0] - January 10, 2020
 
