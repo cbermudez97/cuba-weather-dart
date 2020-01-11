@@ -1,5 +1,10 @@
 # Cuba Weather
 
+## [1.1.1] - January 10, 2020
+
+* Fix variable names
+* Fix errors in dependencies
+
 ## [1.1.0] - January 10, 2020
 
 * Find location with Levenshtein distance
