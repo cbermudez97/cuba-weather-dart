@@ -1,5 +1,9 @@
 # Cuba Weather
 
+## [1.1.2] - January 10, 2020
+
+* Fix errors in dependencies
+
 ## [1.1.1] - January 10, 2020
 
 * Fix variable names
