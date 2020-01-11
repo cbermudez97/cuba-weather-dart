@@ -20,16 +20,16 @@ class LocationRepository {
       }
     }
     var levenshtein = Levenshtein();
-    var best_location = locations[0].toLowerCase();
-    var best_distance = levenshtein.distance(locationQuery, best_location);
+    var bestLocation = locations[0].toLowerCase();
+    var bestDistance = levenshtein.distance(locationQuery, bestLocation);
     for (var i = 1; i < locations.length; ++i) {
-      var temp_location = locations[i].toLowerCase();
-      var temp_distance = levenshtein.distance(locationQuery, temp_location);
-      if (temp_distance < best_distance) {
-        best_location = temp_location;
-        best_distance = temp_distance;
+      var tempLocation = locations[i].toLowerCase();
+      var tempDistance = levenshtein.distance(locationQuery, tempLocation);
+      if (tempDistance < bestDistance) {
+        bestLocation = tempLocation;
+        bestDistance = tempDistance;
       }
     }
-    return best_location;
+    return bestLocation;
   }
 }
