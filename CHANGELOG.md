@@ -1,4 +1,4 @@
-# Cuba Weather
+# Cuba Weather Changelog
 
 ## [1.1.5] - January 11, 2020
 

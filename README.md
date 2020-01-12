@@ -11,7 +11,3 @@ Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a lo
 - To see the package page on [pub.dev](https://pub.dev), follow this [link](https://pub.dev/packages/cuba_weather_dart).
 
 - To see the changelog, follow this [link](CHANGELOG.md).
-
-- To see the code of conduct, follow this [link](CODE_OF_CONDUCT.md).
-
-- To see the license of this package, follow this [link](LICENSE).

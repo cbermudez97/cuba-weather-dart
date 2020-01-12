@@ -1,6 +1,6 @@
-# Cuba Weather Example
+# Cuba Weather Examples
 
-Example of Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a location in Cuba, if it is within the permitted locations, meteorological data on the location is obtained.
+Example of Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a location in Cuba, if it is within the permitted locations, weather data on the location is obtained.
 
 ```[dart]
 import 'dart:io';
