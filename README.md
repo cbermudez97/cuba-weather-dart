@@ -10,7 +10,7 @@ Dart client for [www.redcuba.cu](https://www.redcuba.cu) weather API. Given a lo
 
 Add this to your package's `pubspec.yaml` file:
 
-```[yaml]
+```yaml
 dependencies:
   cuba_weather_dart: ^1.1.5
 ```
@@ -21,13 +21,13 @@ You can install packages from the command line:
 
 with pub:
 
-```[bash]
+```bash
 $ pub get
 ```
 
 with Flutter:
 
-```[bash]
+```bash
 $ flutter pub get
 ```
 
@@ -37,13 +37,13 @@ Alternatively, your editor might support `pub get` or `flutter pub get`. Check t
 
 Now in your Dart code, you can use:
 
-```[dart]
+```dart
 import 'package:cuba_weather_dart/cuba_weather_dart.dart';
 ```
 
 ## Example
 
-```[dart]
+```dart
 import 'dart:io';
 
 import 'package:cuba_weather_dart/cuba_weather_dart.dart';
