@@ -23,7 +23,8 @@ class LocationRepository {
   }
 
   /// Method that returns the best match of the given location with the known
-  /// locations. The best match is calculated using the Levenshtein distance.
+  /// locations. The best match is calculated using the Damerau-Levenshtein
+  /// distance.
   Future<String> getSuggestion(String locationQuery) async {
     locationQuery = locationQuery.toLowerCase();
     var bestLocation = locations[0].toLowerCase();
