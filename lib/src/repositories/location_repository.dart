@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:cuba_weather_dart/src/data_providers/data_providers.dart';
-import 'package:cuba_weather_dart/src/utils/damerau_levenshtein.dart';
+import 'package:cuba_weather_dart/src/utils/utils.dart';
 
 /// Class to provide the functionality of searching for a location
 class LocationRepository {
