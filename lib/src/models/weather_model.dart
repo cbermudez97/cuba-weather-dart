@@ -50,6 +50,20 @@ class WeatherModel extends Equatable {
       descriptionWeather: data['descriptionWeather'],
     );
   }
+
+  @override
+  String toString() {
+    var result = StringBuffer();
+    result.write('City Name: ${cityName}\n');
+    result.write('Temperature: ${temp}°C\n');
+    result.write('Timestamp: ${dt.date}\n');
+    result.write('Humidity: ${humidity}%\n');
+    result.write('Pressure: ${pressure} hpa\n');
+    result.write('Wind: ${windstring}\n');
+    result.write('Description: ${descriptionWeather}\n');
+    result.write('Image Link: ${iconWeather}');
+    return result.toString();
+  }
 }
 
 /// Model class for mapping part of the json returned by the
