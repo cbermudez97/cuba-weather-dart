@@ -1,5 +1,12 @@
 # Cuba Weather Changelog
 
+## [1.2.0] - January 12, 2020
+
+* Restructure code
+* Optional suggestion
+* Correct handling exceptions
+* Improve README.md
+
 ## [1.1.5] - January 11, 2020
 
 * Fix error in GitHub Actions
