@@ -1,8 +1,7 @@
 import 'dart:async';
 
-import 'package:edit_distance/edit_distance.dart';
-
 import 'package:cuba_weather_dart/src/data_providers/data_providers.dart';
+import 'package:cuba_weather_dart/src/utils/damerau_levenshtein.dart';
 
 /// Class to provide the functionality of searching for a location
 class LocationRepository {
@@ -27,12 +26,11 @@ class LocationRepository {
   /// locations. The best match is calculated using the Levenshtein distance.
   Future<String> getSuggestion(String locationQuery) async {
     locationQuery = locationQuery.toLowerCase();
-    var levenshtein = Levenshtein();
     var bestLocation = locations[0].toLowerCase();
-    var bestDistance = levenshtein.distance(locationQuery, bestLocation);
+    var bestDistance = distance(locationQuery, bestLocation);
     for (var i = 1; i < locations.length; ++i) {
       var tempLocation = locations[i].toLowerCase();
-      var tempDistance = levenshtein.distance(locationQuery, tempLocation);
+      var tempDistance = distance(locationQuery, tempLocation);
       if (tempDistance < bestDistance) {
         bestLocation = tempLocation;
         bestDistance = tempDistance;
