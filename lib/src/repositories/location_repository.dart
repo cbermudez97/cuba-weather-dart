@@ -11,7 +11,8 @@ class LocationRepository {
   }
 
   /// Method that returns the best match of the given location with the known
-  /// locations
+  /// locations. The best match is considered as the known location of shorter
+  /// length that contains the given location.
   Future<String> getLocation(String locationQuery) async {
     locationQuery = locationQuery.toLowerCase();
     for (var location in locations) {
@@ -19,6 +20,13 @@ class LocationRepository {
         return location;
       }
     }
+    return locationQuery;
+  }
+
+  /// Method that returns the best match of the given location with the known
+  /// locations. The best match is calculated using the Levenshtein distance.
+  Future<String> getSuggestion(String locationQuery) async {
+    locationQuery = locationQuery.toLowerCase();
     var levenshtein = Levenshtein();
     var bestLocation = locations[0].toLowerCase();
     var bestDistance = levenshtein.distance(locationQuery, bestLocation);

@@ -5,10 +5,12 @@ import 'package:cuba_weather_dart/src/models/models.dart';
 
 /// Class to provide the functionality of obtaining meteorological data
 class WeatherRepository {
-  final WeatherApiClient weatherApiClient;
+  WeatherApiClient weatherApiClient;
 
   /// Class constructor
-  WeatherRepository(this.weatherApiClient) : assert(weatherApiClient != null);
+  WeatherRepository() {
+    weatherApiClient = WeatherApiClient();
+  }
 
   /// Method that given a location returns the meteorological information
   Future<WeatherModel> getWeather(String location) async {
