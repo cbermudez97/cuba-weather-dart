@@ -1,5 +1,10 @@
 # Cuba Weather Changelog
 
+## [1.2.1] - January 12, 2020
+
+* Implement Damerau Levenshtein distance without extra dependency
+* Remove unnecessary dependencies
+
 ## [1.2.0] - January 12, 2020
 
 * Restructure code
