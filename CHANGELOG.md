@@ -1,5 +1,10 @@
 # Cuba Weather Changelog
 
+## [1.3.0] - January 15, 2020
+
+* Remove locations duplicates
+* Use double type instance of int type
+
 ## [1.2.1] - January 12, 2020
 
 * Implement Damerau Levenshtein distance without extra dependency
