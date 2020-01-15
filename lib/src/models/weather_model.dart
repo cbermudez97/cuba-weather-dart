@@ -4,8 +4,8 @@ class WeatherModel {
   final String cityName;
   final WeatherDateModel dt;
   final double temp;
-  final int pressure;
-  final int humidity;
+  final double pressure;
+  final double humidity;
   final String iconWeather;
   final String windstring;
   final String descriptionWeather;
@@ -56,7 +56,7 @@ class WeatherModel {
 /// https://www.redcuba.cu weather API
 class WeatherDateModel {
   final String date;
-  final int timezoneType;
+  final double timezoneType;
   final String timezone;
 
   /// Class constructor
