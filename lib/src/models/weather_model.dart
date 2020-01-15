@@ -55,7 +55,7 @@ class WeatherModel {
 /// Model class for mapping part of the json returned by the
 /// https://www.redcuba.cu weather API
 class WeatherDateModel {
-  final String date;
+  final DateTime date;
   final double timezoneType;
   final String timezone;
 
