@@ -1,5 +1,10 @@
 # Cuba Weather Changelog
 
+## [1.3.1] - January 15, 2020
+
+* Use Datetime class for date
+* Fix error in double conversion
+
 ## [1.3.0] - January 15, 2020
 
 * Remove locations duplicates
