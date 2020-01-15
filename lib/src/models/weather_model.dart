@@ -28,9 +28,9 @@ class WeatherModel {
     return WeatherModel(
       cityName: data['cityName'],
       dt: WeatherDateModel.fromJson(data['dt']),
-      temp: data['temp'],
-      pressure: data['pressure'],
-      humidity: data['humidity'],
+      temp: double.parse(data['temp'].toString()),
+      pressure: double.parse(data['pressure'].toString()),
+      humidity: double.parse(data['humidity'].toString()),
       iconWeather: data['iconWeather'],
       windstring: data['windstring'],
       descriptionWeather: data['descriptionWeather'],
@@ -65,8 +65,8 @@ class WeatherDateModel {
   /// Static method that returns an instance of the class from the json provided
   static WeatherDateModel fromJson(dynamic json) {
     return WeatherDateModel(
-      date: json['date'],
-      timezoneType: json['timezone_type'],
+      date: DateTime.parse(json['date']),
+      timezoneType: double.parse(json['timezone_type'].toString()),
       timezone: json['timezone'],
     );
   }
