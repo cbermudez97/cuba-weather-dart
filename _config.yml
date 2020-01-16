@@ -1,1 +1,5 @@
+title: Cuba Weather Dart
+description: Dart client for www.redcuba.cu weather API
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-cayman
