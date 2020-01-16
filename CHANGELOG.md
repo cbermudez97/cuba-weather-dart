@@ -1,5 +1,9 @@
 # Cuba Weather Changelog
 
+## [1.3.2] - January 16, 2020
+
+* Remove the tests, because the `test` package creates conflict with `flutter_test`.
+
 ## [1.3.1] - January 15, 2020
 
 * Use Datetime class for date
