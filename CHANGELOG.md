@@ -1,5 +1,10 @@
 # Cuba Weather Changelog
 
+## [1.3.3] - January 21, 2020
+
+* Add new locations
+* Implement health suggestions
+
 ## [1.3.2] - January 16, 2020
 
 * Remove the tests, because the `test` package creates conflict with `flutter_test`.
