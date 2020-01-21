@@ -19,8 +19,8 @@ int distance(String s1, String s2) {
       da[s2.codeUnitAt(d)] = 0;
     }
   }
-  var h = new List<List<int>>(s1.length + 2)
-      .map((_) => new List<int>.filled(s2.length + 2, 0))
+  var h = List<List<int>>(s1.length + 2)
+      .map((_) => List<int>.filled(s2.length + 2, 0))
       .toList();
   for (var i = 0; i <= s1.length; ++i) {
     h[i + 1][0] = inf;
